@@ -16,7 +16,7 @@ Before starting the labs make sure to review the
 
 * **[Setup Common registry for API Manager.](Login-apic/index.md)** Steps to setup co-authoring for APIC 
 
-* **[Create Connection to shared Kafka cluster.](Kafka-Pre-lab/Kafka-Pre-Lab.md)** Steps to create Kafka connection and save credentials and certs for all Kafka labs. 
+* **[Create Connection to shared Kafka cluster.](Kafka-Pre-lab/index.md)** Steps to create Kafka connection and save credentials and certs for all Kafka labs. 
 
 * **[VDI overview & instructions.](VDI-overview/index.md)** The following instructions are for accessing the needed resources for completing labs.   We will be using a shared cluster for most labs, but some will also use a common desktop (VDI) that contains the needed software. <br>
 **NOTE: The PoT coordinator should have sent you an email with your student number and links to a VDI Linux desktop and the URL to be used to accessing the shared cluster.**
