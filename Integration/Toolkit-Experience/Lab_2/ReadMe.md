@@ -96,24 +96,6 @@ Click on the ModifyMessage Compute node and it shows we add a status of ‘done�
 
 ![alt text][pic7]
 
-3\. Double click on the node called “Compute” to see the data that will be returned from the http request when the message flow us started: 
-
-The flow will return the following: 
-
-<span style="color:#E1C4D8">Set</span> <span style="color:#3F3FBF">OutputRoot.JSON.Data.pingbasic.Server = ExecutionGroupLabel</span>;
-
-<span style="color:#E1C4D8">Set</span> <span style="color:#3F3FBF"> OutputRoot.JSON.Data.pingbasic.WorkPath = WorkPath</span>;
-
-<span style="color:#E1C4D8">Set</span> <span style="color:#3F3FBF"> OutputRoot.JSON.Data.pingbasic.MsgFlow = MessageFlowLabel</span>;
-
-<span style="color:#E1C4D8">Set</span> <span style="color:#3F3FBF"> OutputRoot.JSON.Data.pingbasic.DateTime</span> = <span style="color:#E1C4D8">CURRENT_TIMESTAMP</span>;
-
-i.e. The **server name** that the flow is running on; the **WorkPath** of the server; the **message flow name**; the **current timestamp**; 
-
-4\. Close the esql editor and the message flow without making any changes: 
-
-![alt text][pic8]
-
 [pic6]: images/6.png
 [pic7]: images/7.png
 [pic8]: images/8.png
@@ -177,11 +159,16 @@ The URL should look similar to this one which is to the chopper cluster: https:/
 
 ![alt text][pic19]
 
-8\. Take the agentx.json file we just downloaded and copy to the TEST_SERVER config location. This is showing the PoTWorkSpace location on windows server. Copy the json file to the location in the server directioy in the agentx directory.    
+8\. Take the agentx.json file we just downloaded and copy to the TEST_SERVER config location.
+If using the VDI provided with the POT then the command will be as follows:
 
-The logging file will then be created:
+<code>
+mv /home/student/Downloads/agentx.json /home/student/IBM/ACET12/workspace/TEST_SERVER/config/iibswitch/agentx/
+</code>
+<br>
+The logging file will then be created.
 
-![alt text][pic20]
+<br>
 
 9\. Stop and start the **Test_Server**
 
@@ -297,7 +284,8 @@ Click in the upper right cornor on the Stopped switch and it will turn green and
 
 ![alt text][pic36]
 
-6\. Go back to your on-prem server where you set the trace node to log info.  Open the logger file and you will see the results of the on-prem flow running.
+6\. Go back to your on-prem server where you set the trace node to log info.
+Goto /home/student/tmp from a terminal window and enter **gedit logger.out** and you will see the results of the on-prem flow running.
 
 ![alt text][pic37]
 ![alt text][pic38]
