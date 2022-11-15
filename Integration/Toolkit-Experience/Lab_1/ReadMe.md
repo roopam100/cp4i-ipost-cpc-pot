@@ -30,7 +30,7 @@
 
 # 1. Introduction <a name="introduction"></a>
 
-The purpose of this LAB is to show how to creaete a defualt Integration Server and then we will build a very simple application that we will deploy to the integration server to test. 
+The purpose of this LAB is to show how to create a default Integration Server and then we will build a very simple application that we will deploy to the integration server to test. 
 
 # 2. Integration Servers  <a name="integration_servers"></a>
 
@@ -73,7 +73,9 @@ This will trigger a process to configure a **\<local>** integration server (not 
 
 Note: the default port for Administration of the server is 7600. Since the “**Find a currently available port for REST administration**” is ticked, the process will add one to this port number until an available port is found (*this is also the logic for the HTTP Port and JVM Debug Port*). 
 
-6\. On successful start of the local Integration Server you will see a message similar to the following. **\<Before>** dismissing the message, note the location of the console.log file:
+6\. On successful start of the local Integration Server you will see a message similar to the following. **\<Before>** dismissing the message, note the location of the console.log file.
+
+**Note** If using the POT VDI defaults then the location will be this /home/student/IBM/ACET12/workspace/TEST_SERVER/console.log
 
 ![alt text][pic6]
 
@@ -98,7 +100,7 @@ In this section you see different ways of how a local Integration Server can be 
 
 ## 2.2.1 Using Integration Toolkit <a name="using_integration_toolkit"></a>
 
-1\. The integration server that you created in the previous section will be up and running (it will have a green arrow facing upwards in the Integration Exlorer window. Right click on the server name and select Stop (this will stop the integration server): 
+1\. The integration server that you created in the previous section will be up and running (it will have a green arrow facing upwards in the Integration Explorer window. Right click on the server name and select Stop (this will stop the integration server): 
 
 ![alt text][pic8]
 
@@ -306,34 +308,32 @@ In this example we are using **chopper9**.
 
 ![alt text][pic35]
 
-4\. This is the **CP4I Platform Navigator** page and shows all the capliblies that are installed:
+4\. This is the **CP4I Platform Navigator** page and shows all the capabilities  that are installed:
 
-![alt text][pic36]
-
-5\. In the upper right cornor click on the icon to see who you are logged in as. Then we will select the **Integration Dashboard**
+In the upper right corner click on the icon to see who you are logged in as. Then we will select the **Integration Dashboard**
 
 ![alt text][pic37]
 
-6\. This will take you to the IBM App Connect Dashboard Home page.  Select the ***Create a server tile***
+5\. This will take you to the IBM App Connect Dashboard Home page.  Select the ***Create a server tile***
 
 ![alt text][pic39]
 
-7\. This will take you to the first step of creating an integration server.  We will select the Toolkit integration and clidk Next: (***We will cover the Designer Integration in other labs***)
+6\. This will take you to the first step of creating an integration server.  We will select the Toolkit integration and clidk Next: (***We will cover the Designer Integration in other labs***)
 
 ![alt text][pic40]
 
-8\. We will now select our BAR file either by drag and drop it or upload it.  Then click **next**
+7\. We will now select our BAR file either by drag and drop it or upload it.  Then click **next**
 
 ![alt text][pic41]
 
-9\. The next page is for any configurations that need to be applied to the integration server.  For this one just click “**Next**”
+8\. The next page is for any configurations that need to be applied to the integration server.  For this one just click “**Next**”
 
-10\. Now we will use the UI to set all the details for this integration server.
+9\. Now we will use the UI to set all the details for this integration server.
 We will set the name to **is-toolkit1**, **Replicas** to **1** and then select **Create**
 
 ![alt text][pic42]
 
-11\. This will take you to the Servers page.   You will see the integration server we just created and it will show Unavailable till the containers are started. 
+10\. This will take you to the Servers page.   You will see the integration server we just created and it will show Unavailable till the containers are started. 
 After a little bit refresh the page.  Once the server is up and running it will show as <span style="color: green">**Started**</span> 
 
 **Note:** This will take a few minutes to spin up the needed containers so move on to the next section and we will login to the OCP console to get the route to our service. 
@@ -369,7 +369,7 @@ In this example we are using **chopper1**.
 ![alt text][pic34a]
 
 3\. Now you will be in the OCP console for your userid.  On the left side menu click on the Networking drop down and select routes.  Make sure you userid (Project) is correct in the top.  In this example it is chopper1.
-Scroll down to find your new server you created **is-ping-toolkit-http** and click on that.  
+Scroll down to find your new server you created **is-toolkit-http** and click on that.  
 
 ![alt text][pic34b]
 

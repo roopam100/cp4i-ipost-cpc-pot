@@ -1,8 +1,8 @@
-# Overview - Setup enviorment
+# Overview - Setup environment
 [Return to main lab page](../index.md)
 
 ## Featuring: 
-- Setup instuctions for accessing the students needed resources for completing labs
+- Setup instructions for accessing the students needed resources for completing labs
 
 [//]: # (This may be the most platform independent comment)
  
