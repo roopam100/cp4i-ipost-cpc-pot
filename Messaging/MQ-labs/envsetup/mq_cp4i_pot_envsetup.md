@@ -112,8 +112,9 @@ These steps document how you can connect MQ Explorer to a Queue Manager running 
 	Enter the value from the *host:* field in the *Host name of IP address*. This was the URL of the *Router Canonical Host* from the route. 
 	Enter **443** for the *Port number*.
 	Enter your SVRCONN channel name in the *Server-connection channel* field.
-	Click the checkbox for Multi-instance queue manager.
-	Enter the same details for the second instance.
+	
+	**Note** for the uniform cluster lab do not click the checkbox for Multi-instance queue manager.
+	
 	Click *Next* three times.
 	
 	![](./images///image138.png)
@@ -124,7 +125,7 @@ These steps document how you can connect MQ Explorer to a Queue Manager running 
 
 	![](./images///image139.png)
 	
-1. Click the *Enter password* button and enter **password**. Click *OK* then *Next*.
+1. Click the *Enter password* button and enter the jks password **'password'**. Click *OK* then *Next*.
 
 	![](./images///image140.png)
 	
