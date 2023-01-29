@@ -29,3 +29,5 @@ Before starting the labs make sure to review the
 [pic4]: images/image4.png
 [pic5]: images/image5.png
 [pic6]: images/image6.png
+
+<!--- <[ACE Toolkit Labs](ACE-toolkit-labs/index.md) > -->
