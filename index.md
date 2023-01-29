@@ -28,6 +28,14 @@ We will cover all the various components that are part of Cloud Pak for Integrat
 
 
 ## Lab section:
+**For this POT today Jan. 31st** we will be using the Mace cluster. 
+
+This is the OCP console and you will use the userid and password provided to you by the instructor.<br>
+https://console-openshift-console.apps.mace.coc-ibm.com/
+
+For the Platform Navigator use this link and select Enterprise LDAP for authentication type, and you will use the userid and password provided to you by the instructor.<br>
+https://cpd-cp4i.apps.mace.coc-ibm.com/
+
 
 |  Topic                                | Description                                                                
 |---------------------------------------|-----------------------------------------------------------------------------|

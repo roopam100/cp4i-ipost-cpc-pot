@@ -49,7 +49,8 @@ First make sure you are logged into the CP4I Platform Navigator using the accoun
 
 12\. Now go back to the tab with the App Connect Designer and select the catalog on the left menu. Scroll down to IBM MQ and fill in the connection info.  
 * Enter your QMgr name
-* For the QMgr host we will use the service name **qmgrX-ibm-mq** where the **X** equals the number from your cluster id ( ex: palpatine**2** )
+* For the QMgr host we will use the service name **qmgrX-ibm-mq.<code>Namespace</code>.svc** where the **X** equals the number from your cluster id ( ex: palpatine**2** ) and Namespace = your cluster id (ex: palpatine2)
+* Example host - qmgr2-ibm-mq.palatine2.svc
 * Port is 1414
 * Channel SYSTEM.DEF.SVRCONN
 
