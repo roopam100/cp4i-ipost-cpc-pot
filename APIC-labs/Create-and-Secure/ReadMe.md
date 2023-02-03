@@ -63,7 +63,7 @@ If you're not logged before, follow these instructions to access to the Platform
 
 ![alt text][pic93]
 
-5\. For this lab we already have the Rest service built and available as a **bar** file, and you can download the **CustomerDatabaseV1.bar** file for the service [here](./resources/CustomerDatabaseV1.bar).
+5\. For this lab we already have the Rest service built and available as a **bar** file, and you can download the [**CustomerDatabaseV1.bar** file for the service here](./resources/CustomerDatabaseV1.bar).
 
 6\. Click on **Create server**.
 
