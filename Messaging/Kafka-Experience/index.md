@@ -4,6 +4,7 @@ Get hands on building API and Event driven flows in this day in the life experie
 [Return to Integration page](../index.md)
 
 Before starting these labs make sure that you have completed the kafka cluster connection setup **[Environment overview and Setup instructions.](../index.md#lab-sections)**  
+* **[Create Connection to shared Kafka cluster.](Kafka-Pre-lab/index.md)** Steps to create Kafka connection and save credentials and certs for all Kafka labs. 
 
 ## Lab Abstracts
 
