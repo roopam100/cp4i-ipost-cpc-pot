@@ -2,7 +2,7 @@
 
 ## The Developer Portal Experience
 
-[Return to main APIC lab page](../ReadMe.md)
+[Return to main APIC lab page](../ReadMe.md#lab-abstracts)
 
 <span style="color: red">Lab prerequisite:</span> "Create and Secure an API to Proxy an Existing REST Web Service"
 
@@ -258,4 +258,4 @@ Congratulations, you have completed the **Developer Portal Experience** lab. Th
 
 -   Test a API in the Developer Portal
 
-[Return to main APIC lab page](../ReadMe.md)
+[Return to main APIC lab page](../ReadMe.md#lab-abstracts)

@@ -2,7 +2,7 @@
 
 ## Creating a GraphQL Proxy API
 
-[Return to main APIC lab page](../ReadMe.md)
+[Return to main APIC lab page](../ReadMe.md/#lab-abstracts)
 
 ---
 
@@ -677,4 +677,4 @@ Congratulations, you have completed the **Creating a GraphQL Proxy API** lab. T
 
 -   Publish the API to the Portal and test
 
-[Return to main APIC lab page](../ReadMe.md)
+[Return to main APIC lab page](../ReadMe.md#lab-abstracts)

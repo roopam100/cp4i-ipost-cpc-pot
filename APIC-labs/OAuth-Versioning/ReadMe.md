@@ -2,7 +2,7 @@
 
 ##Add OAuth Security to your API and use Lifecycle Controls to Version Your API
 
-[Return to main APIC lab page](../ReadMe.md)
+[Return to main APIC lab page](../ReadMe.md/#lab-abstracts)
 
 <span style="color: red">Lab prerequisite:</span> "The Developer Portal Experience"
 
@@ -575,4 +575,4 @@ Congratulations, you have completed the **Add OAuth Security to your API and use
 
 -   Secure the new version of your API
 
-[Return to main APIC lab page](../ReadMe.md)
+[Return to main APIC lab page](../ReadMe.md/#lab-abstracts)

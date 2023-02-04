@@ -2,7 +2,7 @@
 
 ## Create and Secure an API to Proxy an Existing REST Web Service
 
-[Return to main APIC lab page](../ReadMe.md)
+[Return to main APIC lab page](../ReadMe.md/#lab-abstracts)
 
 ---
 
@@ -637,4 +637,4 @@ Congratulations, you have completed the **Create and Secure an API** lab. Throu
 
 -   Publish an API for developers
 
-[Return to main APIC lab page](../ReadMe.md)
+[Return to main APIC lab page](../ReadMe.md/#lab-abstracts)
