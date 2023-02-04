@@ -2,7 +2,7 @@
 Get hands on with the Asset Repoitory which will allows you to store, manage, retrieve and search integration assets.
 Also try the Operations Dashboard that provides cross-component transaction tracing to allow troubleshooting and investigating errors and latency issues across integration capabilities to ensure applications meet service level agreements.
 
-[Return to Integration page](../index.md)
+[Return to main lab section](../index.md/#lab-section)
 
 ## Lab Abstracts
 

@@ -2,7 +2,7 @@
 
 ## Collaboration and Asset Sharing with Cloud Pak for Integration Asset Catalog
 
-[Return to main lab page](../index.md)
+[Return to main Add-on page](../index.md/#lab-abstracts)
 
 # 1. Introduction <a name="introduction"></a>
 
@@ -115,4 +115,4 @@ When done click on **Share**
 # Congratulations!
 You have completed the IBM Cloud Pak for Integration Asset Repository lab.
 
-[Return to main lab page](../index.md)
+[Return to main Add-on page](../index.md/#lab-abstracts)
