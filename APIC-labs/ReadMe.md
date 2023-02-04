@@ -3,7 +3,7 @@
 ## Introduction
 IBM API Connect is an integrated API management offering, with capabilities and tooling for all phases of the API lifecycle. Key steps of the API lifecycle include create, secure, manage, socialize, and analyze.
 
-[Return to Integration page](../index.md#lab-section)
+[Return to main lab section](../index.md#lab-section)
 
 These lab exercises will walk you through designing, publishing, and securing APIs.
 
@@ -12,12 +12,9 @@ IBM API Connect has several out of the box personas. Some of these personas will
 **Personas in IBM API Connect**:
 ![alt text](images/personas.png)
 
-[Return to Integration page](../index.md#lab-section)
+[Return to main lab section](../index.md#lab-section)
 
 ## Lab Abstracts
-
-
-
 
 |  Subject                            | Description                                            |                                                               
 |-------------------------|------------------------------------------------------------------------------------------------------------|
@@ -29,4 +26,4 @@ IBM API Connect has several out of the box personas. Some of these personas will
 |-------------------------|------------------------------------------------------------------------------------------------------------|
 | [GraphQL Proxy API](GraphQL/ReadMe.md)       | **Creating a GraphQL Proxy API:**  In this lab, we will explore how to define GraphQL APIs that proxy to a backend GraphQL server.<br><br>**Prequisite:** None.<br><br>**Primary personas**:  Shavon (API Developer) and Andre (Application Developer)
 
-[Return to Integration page](../index.md#lab-section)
+[Return to main lab section](../index.md#lab-section)
