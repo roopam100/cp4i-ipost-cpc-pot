@@ -1,7 +1,7 @@
 ## Introduction
 The labs are grouped under varies Experience and in each Experience, you will see various labs.  We will cover both the ACE Toolkit and ACE Designer to build integrations. We will be creating Event flows and APIs with Designer and then import them into APIC.   Will also cover labs on Event Streams (Kafka), Asset Repository and Operations Dashboard for tracing.  
 
-[Return to Integration page](../index.md)
+[Return to Integrationmain lab section](../index.md/#lab-section)
 
 ## Environment overview and Setup 
 Before starting the labs make sure that you have completed the to review the Overview and setup from the main page **[Environment overview and Setup instructions.](../index.md#lab-sections)**  

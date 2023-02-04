@@ -41,7 +41,7 @@ https://cpd-cp4i.apps.mace.coc-ibm.com/
 |---------------------------------------|-----------------------------------------------------------------------------|
 | [Environment Overview](Setup/index.md)     | This covers an overview of the lab environment and setup.     
 |---------------------------------------|-----------------------------------------------------------------------------|   
-| [API Management](APIC-labs/ReadMe.md)          | This section you will explore an API Management platform for use in the API Economy. IBM API Connect enables users to create, assemble, manage, secure and socialize APIs  
+| [API Management](APIC-labs/ReadMe.md)          | This section you will explore an API Management platform for use in your API Economy. IBM API Connect enables users to create, assemble, manage, secure and socialize APIs  
 |---------------------------------------|-----------------------------------------------------------------------------|   
 | [Integration Experinces](Integration/index.md)         | This section you will explorer key capabilities using both the ACE Toolkit and ACE Designer to build integrations solutions.  When creating APIs you will also import them into APIC.
 |---------------------------------------|-----------------------------------------------------------------------------|     

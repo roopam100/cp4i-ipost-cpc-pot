@@ -1,5 +1,5 @@
 # IBM App Connect Enterprise
-[Return to main lab page](../index.md)
+[Return to Integration lab section](../index.md/#lab-abstracts)
 ## App Connect Enterprise Basics
 
 ### Featuring: 

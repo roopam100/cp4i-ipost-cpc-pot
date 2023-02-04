@@ -108,7 +108,12 @@ These steps document how you can connect MQ Explorer to a Queue Manager running 
 
 	![](./images///image249.png)
 
-1. Recall the values from the ccdt.json file you previously updated. 
+1. We will now need to get the hostname for this Qmgr to connect to it outside the OCP cluster to MQExplorer.   
+Run the following command 
+
+```
+oc get route -n melch1 | grep mq01a
+```
 	Enter the value from the *host:* field in the *Host name of IP address*. This was the URL of the *Router Canonical Host* from the route. 
 	Enter **443** for the *Port number*.
 	Enter your SVRCONN channel name in the *Server-connection channel* field.

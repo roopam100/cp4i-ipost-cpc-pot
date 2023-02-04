@@ -188,29 +188,68 @@ The queue managers will be in a *Pending* state for a couple of minutes while th
 ### Perform health-check on Uniform Cluster
 
 Before proceeding, we need to check the cluster is up and running.
-
-1. Open another terminal window and start MQ Explorer with the following command.
+1. Open a new terminal window.
+ 
+ Enter the following command to start MQ Explorer making sure to use the correct case:
 
 	```
 	MQExplorer
 	```
 	
-1. Connect your queue managers mqxxa, mqxxb, and mqxxc. Once they are connected and running, you can visually verify your cluster configuration. 
+	![](./images/image247.png)	
+1. When the utility is ready, right-click *Queue Managers* and select *Add Remote Queue Manager*.
 
-	**Note**: You learned how to connect MQ Explorer to queue managers in the *MQ EnvSetup* at the start of the MQ labs. Please review those instructions if you have trouble getting your queue managers connected
+	![](./images///image248.png)
 
-	![](./images/image214.png)
+1. Enter your queue manager name using your student ID. Click *Next*.
 
-1. You will need to make sure to get the host for each of your new Queue Managers running.  Go back to your OCP console and login if needed with your student id.   In this example we are using palpatine5.
+	![](./images///image249.png)
 
-	 ![](./images/image214a.png)
+1. We will now need to get the hostname for this Qmgr to connect to it outside the OCP cluster to MQExplorer.   
+Run the following command 
 
-1. Make sure you are in the correct **Project**
-Now go to the left side and open the Networking. 
-Click on Routes and scroll down to find your Qmgrs. 
-Save the **Host** name. 
+```
+oc get route -n melch1 | grep mq01a
+```
+Copy the hostname 
+	![](./images///image249a.png)
 
-	![](./images/image214b.png)
+*	Enter the value from the *hostname* above. 
+*	Enter **443** for the *Port number*.
+*	Enter your SVRCONN channel name in the *Server-connection channel* field.
+	
+	**Note** for the uniform cluster lab do not click the checkbox for Multi-instance queue manager.
+	
+	Click *Next* three times.
+	
+	![](./images///image138.png)
+	
+	[For more information refer to KnowledgeCenter](https://www.ibm.com/support/knowledgecenter/SSFKSJ_9.1.0/com.ibm.mq.ctr.doc/cc_conn_qm_openshift.htm)
+		
+1. Click the checkbox for *Enable SSL key repositories*. Click *Browse* and navigate to */home/ibmuser/MQonCP4I/tls* and select **MQExplorer.jks**. Then click *Open*.
+
+	![](./images///image139.png)
+	
+1. Click the *Enter password* button and enter the jks password **'password'**. Click *OK* then *Next*.
+
+	![](./images///image140.png)
+	
+1. On the next screen click the checkbox for *Enable SSL options*. Click the drop-down next to *SSL CipherSpec* and select **ANY_TLS12_OR_HIGHER**.
+
+	![](./images///image141.png)
+	
+1. Click *Finish*. You will get a pop-up saying "Trying to connect to the queue manager".
+
+	![](./images///image141a.png)
+	
+1. After a few seconds you see that MQ Explorer has connected. The Queue Manager will be added and shown in the navigator.
+
+	![](./images///image142.png)
+	
+1. Operate MQ Explorer as you normally would. Expand the queue manager and "explore" MQ looking at queues, channels, etc.
+
+	![](./images///image143.png)
+
 
 **You now have the hosts to connect to the QMgrs Connect all 3 Qmgrs in MQExplorer**
 
