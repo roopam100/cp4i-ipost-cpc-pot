@@ -45,7 +45,7 @@ https://cpd-cp4i.apps.mace.coc-ibm.com/
 |---------------------------------------|-----------------------------------------------------------------------------|   
 | [Integration Experiences](Integration/index.md)         | This section you will explorer key capabilities using both the ACE Toolkit and ACE Designer to build integrations solutions.  When creating APIs you will also import them into APIC.
 |---------------------------------------|-----------------------------------------------------------------------------|     
-| [MQ Messaging Experiences](Messaging/index.md)          | This section you will explore complete messaging solutions. <BR> A message platform to simplify and accelerate integration of diverse applications and business data across multiple platforms with multiple messaging styles.  
+| [MQ Messaging Experiences](MQ/index.md)          | This section you will explore MQ messaging solutions. <BR> A message platform to simplify and accelerate integration of diverse applications and business data across multiple platforms with multiple messaging styles.  
 |---------------------------------------|-----------------------------------------------------------------------------|     
 | [Kafka Experiences](Kafka-Experience/index.md)          | A full-scale streaming platform, capable of not only publish-and-subscribe, but also the storage and processing of data within the stream. 
 |---------------------------------------|-----------------------------------------------------------------------------|
