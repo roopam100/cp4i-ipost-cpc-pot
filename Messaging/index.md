@@ -8,11 +8,14 @@ This section you will explore complete messaging solutions. <BR>
 [Return to Integration page](../index.md)
 
 
+
+**Before starting the **Kafka** or the Event Endpoint Experience labs make sure that you have completed the kafka cluster connection setup.**
+* **[Create Connection to shared Kafka cluster.](Kafka-Pre-lab/index.md)** Steps to create Kafka connection and save credentials and certs for all Kafka labs. 
 ## Lab Abstracts
 
 |  Subject                            | Description                                            |                                                               
 |-----------------------------|------------------------------------------------------------------------------------------------------------|
-| [MQ Messaging](MQ-labs/index.md)       | **Varies MQ messaging capabilities** IBM MQ is messaging for applications. It sends messages across networks of diverse components. Your application connects to IBM MQ to send or receive a message.<br><br>**Environments and Perquisite:** For these labs you will need to use the VDI.  It is best to login to the Cluster from the VDI. 
+| [MQ Messaging](MQ-labs/index.md)       | **Varies MQ messaging capabilities** IBM MQ is messaging for applications. It sends messages across networks of diverse components. Your application connects to IBM MQ to send or receive a message.
 |-----------------------------|------------------------------------------------------------------------------------------------------------|
 | [Kafka Experience](Kafka-Experience/index.md)       | **App Connect integration to Kafka**  Kafka is a real time event streaming platform that enables you to publish/subscribe, store, and process events as they happen. App Connect provides a Kafka smart connector that enables you to connect to a number of supported Kafka implementations.
 |-----------------------------|------------------------------------------------------------------------------------------------------------|

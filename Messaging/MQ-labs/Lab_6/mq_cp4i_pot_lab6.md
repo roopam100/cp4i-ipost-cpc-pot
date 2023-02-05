@@ -183,7 +183,7 @@ This lab shows you how to write yaml to create the queue manager, application qu
 	oc project <your namespace>
 	```
 	
-	**This lab is using student *palpatine5*  You shouldn’t need to run this command unless your login has timed out.**
+	**This lab is using student *palpatine5*  You shouldn’t need to run this command unless your login has timed out.  And make sure you using your own namespace**
 	
 1. Open a new terminal window by double-clicking the icon on the desktop.
 
@@ -238,10 +238,6 @@ This lab shows you how to write yaml to create the queue manager, application qu
 	After a couple of minutes the instance is deployed and the status changes to *Ready*.
 
 	![](./images/image18.png)
-	
-	 **If you have closed the Platform Navigator, you can change to the OCP Console > Project cp4i > Networking > Routes > integration-navigator-pn. See screen shot below.**
-	
-	![](./images/image20.png)
 
 #### Open MQ Console
 
@@ -284,42 +280,8 @@ This lab shows you how to write yaml to create the queue manager, application qu
 	
 1. Here you see the channel auth created by the mqsc commands in the yaml defined *ConfigMap* as well as the system channel auth records. Your yaml file defined the MQXXSTRMCHL record with a type of *Block*. You can click the wrench icon to display or edit the record. If you do change the properties you will then need to refresh security. To do that you simply click the Actions elipsis and select the necessary refresh option.	
 1. Continue to explore the MQ Console as long as you like.
-
-#### Review your MQ instance in OpenShift
-
-There is an extensive amount of detail in the OpenShift Console. The following instructions will lead you to accomplish the purpose of this lab. But feel free to explore more detail to help you understand OpenShift and CP4I.
-
-If running as part of a PoT there will be multiple queue managers running so you need to be looking for your *mqxxstrm* instance queue manager.
-
-1. Return to the browser tab in Firefox for the OCP Console. You will be in the *Administrator* view. Click *Projects* then scroll down to find **cp4i-mq* (substiting your namespace if necessary) and click the hyperlink.
-
-	![](./images/image28.png)
 	
-1. The project *Overview* opens where you can see the status and utilization of the **cp4i-mq** namespace (project).
-
-	![](./images/image29.png)
-
-1. On the left sidebar expand *Operators*, then select *Installed Operators*.
-
-	![](./images/image30.png)
-	
-1. Scroll to find **IBM MQ** then click the hyperlink.
-
-	![](./images/image31.png)
-
-1. You can read about the *IBM MQ* operator and select the tabs to discover what information is available. Click the *Queue Manager* tab. 
-	
-	![](./images/image32.png)
-
-1. You will see numerous instances. To easily locate your instance enter **mq** plus your student number in the filter field. You will see that your instance **mqxxstrm** is running.
-
-	![](./images/image33.png)
-	
-1. On the left sidebar expand *Workloads*, then select *Pods*. Use your filter to limit the display to your instance. You will see one pod for your MQ instance. The pod has a replica count of one, meaning there is one container in the pod and it is running your queue manager. 
-
-	![](./images/image34.png)
-	
-1. You can also see this on the command line. In your terminal window enter the following command using your student ID in place of *xx*.
+1. You can also see that the pods are running from the command line. In your terminal window enter the following command using your student ID in place of *xx*.
 	
 	```sh
 	oc get pods | grep mqxx
@@ -343,20 +305,11 @@ If running as part of a PoT there will be multiple queue managers running so you
 **Replace 99 with your student number**
 
 	```sh
-	oc get route | grep mq99
+	oc get route | grep mqxxstrm  
 	```
-	
+	Replace the xx with your student ID.
 	Your host name should start with mqxxstrm-ibm-mq-qm where xx is your student ID.	
 	![](./images/image37.png)	
-1. It is much easier to read in the OpenShift console. Return to the web browser tab where the console is open. On the left sidebar, scroll down to *Networking*, use the drop-down to see the options, and select *Routes*.
-
-	Use the filter to search for your queue manager routes to limit your search much like you did using grep with the oc command. Click the route name hyperlink for *mqxxstrm-ibm-mq-qm*.
-	
-	![](./images/image38.png)
-	
-1. Click the hyperlink for the route. Under *Route Details* scroll down to *Router:default*. There you will find the Host URL. Copy the URL under *Host* to use in the ccdt.json file.
-
-	![](./images/image39.png)
 
 1. Return to the editor and paste the value into the *host:* field of ccdt.json. Under *channel* > *name:* insert the name of your SVRCONN channel (MQxxSTRMCHL). Then input the value of your queue manager in the *queueManager:* field.
 
@@ -367,17 +320,6 @@ If running as part of a PoT there will be multiple queue managers running so you
 1. Now edit *getMessage.sh* and *sendMessge.sh*. You need to change the same values in each file. In the export statements, change 00 to your student ID. Verify that the paths for *MQCCDTURL* and *MQSSLKEYR* are set to /home/student/…. Click the *Save* button for each file.
 
 	![](./images/image41.png)
-	
-1. In the terminal window in the ./test directory make *sendMessage.sh* and *getMessage.sh* files executable with the following commnads:
-
-	```sh
-	chmod +x sendMessage.sh
-	```
-	```sh
-	chmod +x getMessage.sh
-	```
-	
-	![](./images/image42.png)
 
 #### Put messages on the application queue
 	
