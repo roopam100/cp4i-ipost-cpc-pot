@@ -1,23 +1,24 @@
 ## Introduction
-The labs are grouped under varies Experience and in each Experience, you will see various labs.  We will cover both the ACE Toolkit and ACE Designer to build integrations. We will be creating Event flows and APIs with Designer and then import them into APIC.   Will also cover labs on Event Streams (Kafka), Asset Repository and Operations Dashboard for tracing.  
+This section you will explore complete messaging solutions. <BR> 
 
-[Return to Integrationmain lab section](../index.md/#lab-section)
+- A message platform to simplify and accelerate integration of diverse applications and business data across multiple platforms with multiple messaging styles. <BR> 
 
-## Environment overview and Setup 
-Before starting the labs make sure that you have completed the to review the Overview and setup from the main page **[Environment overview and Setup instructions.](../index.md#lab-sections)**  
-We will be using a shared cluster for most labs, but some will also use a common desktop (VDI) that contains the needed software. <br>
-**NOTE: The PoT coordinator should have sent you an email with your student number and links to a VDI Linux desktop and the URL to be used for accessing the shared cluster.**
-<br><br>
+- A full-scale streaming platform, capable of not only publish-and-subscribe, but also the storage and processing of data within the stream. 
 
+[Return to Integration page](../index.md)
+
+
+
+**Before starting the **Kafka** or the Event Endpoint Experience labs make sure that you have completed the kafka cluster connection setup.**
+* **[Create Connection to shared Kafka cluster.](Kafka-Pre-lab/index.md)** Steps to create Kafka connection and save credentials and certs for all Kafka labs. 
 ## Lab Abstracts
 
 |  Subject                            | Description                                            |                                                               
 |-----------------------------|------------------------------------------------------------------------------------------------------------|
-| [Toolkit Experience](Toolkit-Experience/index.md)       | **Basic PING flow with Toolkit** This is a basic toolkit lab that you will create a simple Ping flow and then test locally and deploy to the ACE runtime in CP4I.  We will also show how to distribute workloads using IBM App Connect Enterprise Callable Flows. 
+| [MQ Messaging](MQ-labs/index.md)       | **Varies MQ messaging capabilities** IBM MQ is messaging for applications. It sends messages across networks of diverse components. Your application connects to IBM MQ to send or receive a message.
 |-----------------------------|------------------------------------------------------------------------------------------------------------|
-| [SalesForce Experience](SF-Experience/index.md)       | **Multi-Style Integration with IBM App Connect and IBM API Connect the SalesForce experience**  Create no-code integrations using IBM App Connect and expose and manage the APIs created with IBM API Connect. We will also show the value of Event Driven flows to react to events in backend systems. 
+| [Kafka Experience](Kafka-Experience/index.md)       | **App Connect integration to Kafka**  Kafka is a real time event streaming platform that enables you to publish/subscribe, store, and process events as they happen. App Connect provides a Kafka smart connector that enables you to connect to a number of supported Kafka implementations.
 |-----------------------------|------------------------------------------------------------------------------------------------------------|
-| [ServiceNow Experience](SN-Experience/index.md)       | **Multi-Style Integration with IBM App Connect and IBM API Connect the ServiceNow experience**  Create no-code integrations using IBM App Connect and expose and manage the APIs created with IBM API Connect. We will also show the value of Event Driven flows to react to events in backend systems.
+| [Event Endpoint Experience](Event_EndPoint/index.md)       | **Integration with AsyncAPI's Event Endpoint Experience**  Show to create an Async API in IBM API Connect Manager, Produce events to IBM Event Streams using IBM App Connect Toolkit Flow, and finally run varies Consumers to read the events 
 |-------------------------|------------------------------------------------------------------------------------------------------------|
-| **ACE Toolkit Labs**         | This section you will focus on basic as well as advance capabilities using ACE Toolkit to build integrations both API lead as well as Event Driven solutions. <br>**This lab is being worked on.** 
-|---------------------------------------|-----------------------------------------------------------------------------| 
+|

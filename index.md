@@ -43,12 +43,14 @@ https://cpd-cp4i.apps.mace.coc-ibm.com/
 |---------------------------------------|-----------------------------------------------------------------------------|   
 | [API Management](APIC-labs/ReadMe.md)          | This section you will explore an API Management platform for use in your API Economy. IBM API Connect enables users to create, assemble, manage, secure and socialize APIs  
 |---------------------------------------|-----------------------------------------------------------------------------|   
-| [Integration Experinces](Integration/index.md)         | This section you will explorer key capabilities using both the ACE Toolkit and ACE Designer to build integrations solutions.  When creating APIs you will also import them into APIC.
+| [Integration Experiences](Integration/index.md)         | This section you will explorer key capabilities using both the ACE Toolkit and ACE Designer to build integrations solutions.  When creating APIs you will also import them into APIC.
 |---------------------------------------|-----------------------------------------------------------------------------|     
-| [Messaging Experinces](Messaging/index.md)          | This section you will explore complete messaging solutions. <BR> A message platform to simplify and accelerate integration of diverse applications and business data across multiple platforms with multiple messaging styles. <BR> A full-scale streaming platform, capable of not only publish-and-subscribe, but also the storage and processing of data within the stream. 
+| [MQ Messaging Experiences](Messaging/index.md)          | This section you will explore complete messaging solutions. <BR> A message platform to simplify and accelerate integration of diverse applications and business data across multiple platforms with multiple messaging styles.  
+|---------------------------------------|-----------------------------------------------------------------------------|     
+| [Kafka Experiences](Kafka-Experience/index.md)          | A full-scale streaming platform, capable of not only publish-and-subscribe, but also the storage and processing of data within the stream. 
 |---------------------------------------|-----------------------------------------------------------------------------|
 | [CP4I Addon](Add-on/index.md)         | This section will show additional Unique Value and Capabilities when using Cloud pak for Integration. Collaboration and Asset Sharing with Cloud Pak for Integration **Asset Catalog**
-|---------------------------------------|-----------------------------------------------------------------------------|    
+|---------------------------------------|-----------------------------------------------------------------------------|  
 | **Aspera Labs**          | This section you will explore Aspera file transfer. <br> **This lab is being worked on** <br><br> **Environments:** For these labs you will need to use the VDI.  It is best to login to the Cluster from the VDI.  
 
 <!--- <[ACE Toolkit Labs](ACE-toolkit-labs/index.md) > -->
