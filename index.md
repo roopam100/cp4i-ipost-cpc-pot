@@ -47,7 +47,7 @@ https://cpd-cp4i.apps.mace.coc-ibm.com/
 |---------------------------------------|-----------------------------------------------------------------------------|     
 | [MQ Messaging Experiences](MQ/index.md)          | This section you will explore MQ messaging solutions. <BR> A message platform to simplify and accelerate integration of diverse applications and business data across multiple platforms with multiple messaging styles.  
 |---------------------------------------|-----------------------------------------------------------------------------|     
-| [Kafka Experiences](Kafka-Experience/index.md)          | A full-scale streaming platform, capable of not only publish-and-subscribe, but also the storage and processing of data within the stream. 
+| [Kafka Experiences](Kafka/index.md)          | A full-scale streaming platform, capable of not only publish-and-subscribe, but also the storage and processing of data within the stream. 
 |---------------------------------------|-----------------------------------------------------------------------------|
 | [CP4I Addon](Add-on/index.md)         | This section will show additional Unique Value and Capabilities when using Cloud pak for Integration. Collaboration and Asset Sharing with Cloud Pak for Integration **Asset Catalog**
 |---------------------------------------|-----------------------------------------------------------------------------|  
