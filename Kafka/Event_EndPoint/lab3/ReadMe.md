@@ -19,7 +19,7 @@ From API Connect Developer Portal, navigate to your Async API & the Subscribe Op
 Copy the code snippet by clicking "Copy to Clipboard" icon on right (sample command below).<br>
 
 ```
-./kafka-console-consumer.sh --bootstrap-server "apis-minim-xxxxx-event-gw-client-cp4i-apic.ocp-dev-xxxx-0000.us-east.containers.appdomain.cloud:443" \
+kafka-console-consumer.sh --bootstrap-server "apis-minim-xxxxx-event-gw-client-cp4i-apic.ocp-dev-xxxx-0000.us-east.containers.appdomain.cloud:443" \
   --group "1" \
   --consumer-property "client.id=88f19049-b245-43d2-92b1-72afc6a50bc8" \
   --key-deserializer "org.apache.kafka.common.serialization.StringDeserializer" \
@@ -30,7 +30,8 @@ Copy the code snippet by clicking "Copy to Clipboard" icon on right (sample comm
   --consumer-property "ssl.truststore.location=<path to truststore>" \
   --consumer-property "ssl.truststore.password=<truststore password>" \
   --consumer-property "ssl.truststore.type=<truststore type>" \
-  --topic "STUDENT00.FLIGHT.LANDINGS"
+  --topic "STUDENT00.FLIGHT.LANDINGS" \
+  --consumer-property "ssl.endpoint.identification.algorithm="
 ```
 Modify the command, and update username, password, ssl.truststore.location, ssl.truststore.password, ssl.truststore.type fields.<br>
 
