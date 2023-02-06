@@ -74,7 +74,7 @@ You should have a text file saved on the VDI with this info and the cert files w
 
 ![alt text][pic12]
 
-[Return to main lab page](../index.md#lab-sections)
+[Return to kafka lab page](../index.md#lab-sections)
 
 
 [pic0]: images/0.png

@@ -3,8 +3,6 @@ Get hands on building Event driven flows using a full-scale streaming platform, 
 
 [Return to kafka main page](../index.md#lab-abstracts)
 
-Before starting these labs make sure that you have completed the kafka cluster connection setup **[Environment overview and Setup instructions.](../index.md#lab-sections)**  
-
 ## Lab Abstracts
 
 |  Subject                            | Description                                            |                                                               
