@@ -55,18 +55,3 @@ Before starting the labs you should review the lab environment and the use of th
 <!--- <[ACE Toolkit Labs](ACE-toolkit-labs/index.md) > -->
 <!--- <[Event Endpoint Labs](Event_EndPoint/index.md) > -->
 <!--- <[Aspera Labs](Aspera/index.md) > -->
-
-
-|  Topic                                | Description                                                                
-|---------------------------------------|-----------------------------------------------------------------------------|
-| [Environment Overview](Setup/index.md)     | This covers an overview of the lab environment and setup.     
-|---------------------------------------|-----------------------------------------------------------------------------|   
-| [API Management](APIC-labs/ReadMe.md)          | This section you will explore an API Management platform for use in the API Economy. IBM API Connect enables users to create, assemble, manage, secure and socialize APIs <br><br>**Environments:** For these labs you will **NOT** need to use the VDI.  You can login to the Cluster directly from your browser. 
-|---------------------------------------|-----------------------------------------------------------------------------|   
-| [Integration Experinces](Integration/index.md)         | This section you will explorer key capabilities using both the ACE Toolkit and ACE Designer to build integrations solutions.  When creating APIs you will also import them into APIC.<br><br><b>Environments:</b> For some of these labs you will need to use the VDI.  It is best to login to the Cluster from the VDI. 
-|---------------------------------------|-----------------------------------------------------------------------------|     
-| [Messaging Experinces](Messaging/index.md)          | This section you will explore complete messaging solutions. <BR> A message platform to simplify and accelerate integration of diverse applications and business data across multiple platforms with multiple messaging styles. <BR> A full-scale streaming platform, capable of not only publish-and-subscribe, but also the storage and processing of data within the stream. <br><br>**Environments:** For some of these labs you will need to use the VDI.  It is best to login to the Cluster from the VDI.  
-|---------------------------------------|-----------------------------------------------------------------------------|
-| [CP4I Addon](Add-on/index.md)         | This section will show additional Unique Value and Capabilities when using Cloud pak for Integration. Collaboration and Asset Sharing with Cloud Pak for Integration **Asset Catalog**
-|---------------------------------------|-----------------------------------------------------------------------------|    
-| **Aspera Labs**          | This section you will explore Aspera file transfer. <br> **This lab is being worked on** <br><br> **Environments:** For these labs you will need to use the VDI.  It is best to login to the Cluster from the VDI.  
