@@ -35,8 +35,8 @@ For the Platform Navigator use this link and select Enterprise LDAP for authenti
 [https://cpd-cp4i.apps.mace.coc-ibm.com/](https://cpd-cp4i.apps.mace.coc-ibm.com/)
 
 Before starting the labs you should review the lab environment and the use of the VDI desktop you will be using along with the OCP cluster to complete the labs.<br>
-**[Review Lab environment.](Setup/VDI-overview/index.md)** 
-<br>
+**[Review Lab environment.](Setup/VDI-overview/index.md)**
+
 |  Topic                                | Description                                                                
 |---------------------------------------|-----------------------------------------------------------------------------|
 | [API Management](APIC-labs/ReadMe.md)          | This section you will explore an API Management platform for use in your API Economy. IBM API Connect enables users to create, assemble, manage, secure and socialize APIs  
