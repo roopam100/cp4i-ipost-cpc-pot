@@ -31,16 +31,17 @@ We will cover all the various components that are part of Cloud Pak for Integrat
 **For this POT today Jan. 31st** we will be using the Mace cluster. 
 
 This is the OCP console and you will use the userid and password provided to you by the instructor.<br>
-https://console-openshift-console.apps.mace.coc-ibm.com/
+[https://console-openshift-console.apps.mace.coc-ibm.com/](https://console-openshift-console.apps.mace.coc-ibm.com/)
 
 For the Platform Navigator use this link and select Enterprise LDAP for authentication type, and you will use the userid and password provided to you by the instructor.<br>
-https://cpd-cp4i.apps.mace.coc-ibm.com/
+[https://cpd-cp4i.apps.mace.coc-ibm.com/](https://cpd-cp4i.apps.mace.coc-ibm.com/)
 
+Before starting the labs you should review the lab environment and the use of the VDI desktop you will be using along with the OCP cluster to complete the labs.
+
+**[Review Lab environment.](Setup/VDI-overview/index.md)** 
 
 |  Topic                                | Description                                                                
 |---------------------------------------|-----------------------------------------------------------------------------|
-| [Environment Overview](Setup/index.md)     | This covers an overview of the lab environment and setup.     
-|---------------------------------------|-----------------------------------------------------------------------------|   
 | [API Management](APIC-labs/ReadMe.md)          | This section you will explore an API Management platform for use in your API Economy. IBM API Connect enables users to create, assemble, manage, secure and socialize APIs  
 |---------------------------------------|-----------------------------------------------------------------------------|   
 | [Integration Experiences](Integration/index.md)         | This section you will explorer key capabilities using both the ACE Toolkit and ACE Designer to build integrations solutions.  When creating APIs you will also import them into APIC.

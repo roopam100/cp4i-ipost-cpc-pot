@@ -1,5 +1,5 @@
 # Overview - Setup enviorment
-[Return to main lab page](../index.md)
+[Return to main lab page](../../index.md#lab-section)
 
 ## Featuring: 
 - Setup instuctions for accessing the students needed resources for completing labs
@@ -74,11 +74,8 @@ In this example we are using chopper9
 9. Do this one last time to include the url for the POT labs.  Open a new browser tab and paste the url for the lab docs that were provided.  You should now have 3 tabs in your Firefox browsers for the OCP console, Platform Navigator, and labs.  
 
 ![alt text][pic7]
-
-## 3. End of PoT setup
-
-You are now ready to start lab 1.   
-[Return to main lab page](../index.md)
+ 
+[Return to main lab page](../../index.md#lab-section)
 
 [pic0]: images/image0.png
 [pic1]: images/image1.png
