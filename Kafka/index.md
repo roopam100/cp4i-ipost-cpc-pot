@@ -2,12 +2,12 @@
 This section you will explore complete kafka messaging solutions. <BR> 
 A full-scale streaming platform, capable of not only publish-and-subscribe, but also the storage and processing of data within the stream. 
 
-[Return to Integration page](../index.md)
+[Return to main lab section](../index.md#lab-section)
 
 
 
 Before starting the **Kafka** or the **Event Endpoint Experience labs** make sure that you have completed the **kafka cluster connection setup.**
-* **[Create Connection to shared Kafka cluster.](Kafka-Pre-lab/index.md)** Steps to create Kafka connection and save credentials and certs for all Kafka labs. 
+* **[Create Connection to shared Kafka cluster.](../Kafka/Kafka-Pre-lab/index.md)** Steps to create Kafka connection and save credentials and certs for all Kafka labs. 
 ## Lab Abstracts
 
 |  Subject                            | Description                                            |                                                               

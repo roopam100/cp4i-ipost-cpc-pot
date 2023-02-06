@@ -1,7 +1,7 @@
 ## Multi-Style Integration with IBM Cloud Pak for Integration Event Endpoint Experience
 Get hands on building API and Event driven flows in this day in the life experience integrating with Async APIs
 
-[Return to lab section page](../index.md#lab-sections)
+[Return to Kafka lab page](../index.md#lab-sections)
 
 # IBM Cloud Pak for Integration - IBM API Connect AsyncAPI Labs
 
@@ -25,4 +25,4 @@ Architecture Diagram below <br>
 |-------------------------|------------------------------------------------------------------------------------------------------------|
 | [Lab 3](lab3/ReadMe.md)       |In this lab you will run kafka clients to consume the Flight landing events being produced in lab2.
 
-[Return to lab section page](../index.md#lab-sections)
+[Return to Kafka lab page](../index.md#lab-sections)
