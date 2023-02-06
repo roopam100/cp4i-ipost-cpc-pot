@@ -784,7 +784,7 @@ Run the command with the arugments that you used in the EnvSetup using your Stud
 	```
 ![](./images/image324a.png)
    
-[Continue to Lab 2](../Lab_4/mq_cp4i_pot_lab4.md)
+[Continue to Lab 2](../Lab_5/mq_cp4i_pot_lab5.md)
 
-[Return to main lab page](../index.md)
+[Return to MQ lab page](../index.md#introduction)
 

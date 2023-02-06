@@ -439,4 +439,6 @@ You have completed this lab nativeHA for MQ on CP4I.
 
 	![](./images/image52.png)
 		
-[Return to main lab page](../index.md)
+[Continue to Lab 3](../Lab_5/mq_cp4i_pot_lab3.md)
+
+[Return to MQ lab page](../index.md#introduction)

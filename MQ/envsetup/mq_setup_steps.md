@@ -1,9 +1,4 @@
 # Setup environment for MQ CP4I PoT
-# Table of Contents 
-- [1. Download artifacts for MQ on CP4I](#download-artifacts-for-mq-on-cp4i-pot)
-- [2. Connecting MQ Explorer to a deployed Queue Manager in OpenShift](#connecting-mq-explorer-to-a-deployed-queue-manager-in-openshift)
-- [3. IBM Only - Create Project (namespace) for your lab assets](#ibm-only---create-project-namespace-for-your-lab-assets)
-
 
 <a name="download"></a>	
 ## Download artifacts for MQ on CP4I PoT
@@ -85,4 +80,4 @@ Great! You are now ready to start working with MQ in the labs. If running a PoT,
 
 [Continue to Lab 1](../Lab_3/mq_cp4i_pot_lab3.md#introduction)
 
-[Return MQ CP4I Menu](../index.md#introduction)
+[Return MQ CP4I Menu](../index.md#lab-abstracts)
