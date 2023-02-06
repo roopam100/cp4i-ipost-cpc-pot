@@ -10,7 +10,7 @@ What is IBM MQ?
    - IBM MQ is messaging and queuing middleware, with point-to-point,publish/subscribe, and file transfer modes of operation. Applications can publish messages to many subscribers over multicast.
 
 
-[Return to main lab page](../index.md#lab-section)
+[Return to main lab section](../index.md#lab-section)
 
 
 

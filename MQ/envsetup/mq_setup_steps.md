@@ -1,5 +1,5 @@
 # Setup environment for MQ CP4I PoT
-
+[Return MQ main page](../index.md#lab-abstracts)
 <a name="download"></a>	
 ## Download artifacts for MQ on CP4I PoT
 
@@ -80,4 +80,4 @@ Great! You are now ready to start working with MQ in the labs. If running a PoT,
 
 [Continue to Lab 1](../Lab_3/mq_cp4i_pot_lab3.md#introduction)
 
-[Return MQ CP4I Menu](../index.md#lab-abstracts)
+[Return MQ main page](../index.md#lab-abstracts)

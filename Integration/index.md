@@ -1,7 +1,7 @@
 ## Introduction
 The labs are grouped under varies Experience and in each Experience, you will see various labs.  We will cover both the ACE Toolkit and ACE Designer to build integrations. We will be creating Event flows and APIs with Designer and then import them into APIC.   
 
-[Return to Integration page](../index.md#lab-section)
+[Return to main lab section](../index.md#lab-section)
 ## Lab Abstracts
 
 |  Subject                            | Description                                            |                                                               

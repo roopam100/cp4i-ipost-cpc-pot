@@ -25,21 +25,18 @@ We will cover all the various components that are part of Cloud Pak for Integrat
 - Unification of integration broad ranging integration technologies – e.g. iPaaS, API management, messaging, events
 - Easily portable to other clouds, since this can run on RedHat OpenShift. This allows you to install and operate the Pak identically across multiple cloud vendors.  
 
-
-
 ## Lab section:
-**For this POT today Jan. 31st** we will be using the Mace cluster. 
+**For this POT today Feb 8th tp Feb 9th** we will be using the Mace cluster. 
 
-This is the OCP console and you will use the userid and password provided to you by the instructor.<br>
+This is the OCP console and you will use the userid and password provided to you by the instructor. <br>**(Suggest right clicking and opening in new tab in the VDI)**<br>
 [https://console-openshift-console.apps.mace.coc-ibm.com/](https://console-openshift-console.apps.mace.coc-ibm.com/)
 
-For the Platform Navigator use this link and select Enterprise LDAP for authentication type, and you will use the userid and password provided to you by the instructor.<br>
+For the Platform Navigator use this link and select Enterprise LDAP for authentication type, and you will use the userid and password provided to you by the instructor. <br>**(Suggest right clicking and opening in new tab in the VDI)**<br>
 [https://cpd-cp4i.apps.mace.coc-ibm.com/](https://cpd-cp4i.apps.mace.coc-ibm.com/)
 
-Before starting the labs you should review the lab environment and the use of the VDI desktop you will be using along with the OCP cluster to complete the labs.
-
+Before starting the labs you should review the lab environment and the use of the VDI desktop you will be using along with the OCP cluster to complete the labs.<br>
 **[Review Lab environment.](Setup/VDI-overview/index.md)** 
-
+<br>
 |  Topic                                | Description                                                                
 |---------------------------------------|-----------------------------------------------------------------------------|
 | [API Management](APIC-labs/ReadMe.md)          | This section you will explore an API Management platform for use in your API Economy. IBM API Connect enables users to create, assemble, manage, secure and socialize APIs  
