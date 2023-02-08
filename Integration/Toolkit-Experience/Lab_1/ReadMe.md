@@ -40,7 +40,7 @@ The ability to create a local integration server from the Integration Toolkit wa
 
 ![alt text][pic0]
 
-1\. Open the IBM App Connect Enterprise Toolkit.   From the virtual Desktop image that you were assigned for the PoT login and then open a Terminal window.    This will land you in your home directory.   Enter **ace toolkit**  
+1\. Open the IBM App Connect Enterprise Toolkit.   From the virtual Desktop image that you were assigned for the PoT login and then open a Terminal window.    This will land you in your home directory.   Enter **ace toolkit -clean**  
 From the Workspace Launcher we will create a new workspace for the work in this lab guide enter the Workspace name and click OK.
 
 ![alt text][pic1] 
