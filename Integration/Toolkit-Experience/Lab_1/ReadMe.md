@@ -145,10 +145,6 @@ Note the **Example request** and **Responses**.
 
 ![alt text][pic15]
 
-For example **python**:
-
-![alt text][pic16]
-
 5\. Click the “**Try it**” tab and then select the **Send** button (this will send the API request to the administration port on TEST_SERVER. The integration server will then shutdown: 
 
 ![alt text][pic17]
