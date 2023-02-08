@@ -34,7 +34,7 @@ But you could also call a flow running in CP4I from an on prem flow as well.
 1\. Open the IBM App Connect Enterprise Toolkit. 
 
 **If you already have the toolkit open continue to step 3.**
-From the virtual Desktop image that you were assigned for the PoT login and then open a Terminal window. This will land you in your home directory. Enter **ace toolkit**
+From the virtual Desktop image that you were assigned for the PoT login and then open a Terminal window. This will land you in your home directory. Enter **ace toolkit -clean**
 From the Workspace Launcher we will create a new workspace for the work in this lab guide enter the Workspace name and click OK.  If you already have created a Workspace use that. 
 
 ![alt text][pic1]
