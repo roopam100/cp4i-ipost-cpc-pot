@@ -86,9 +86,7 @@ A Portal Administrator can customize the look and feel to their organizational s
 
 8\. Some Products are visible to all users without an account depending on the Product visibility setting. Additional options are available when you log into the Developer Portal.
 
-The portal is setup for self service so we will create a new account as a developer. An account has already been created for you (**consumer01**), credentials will be provided by the instructor. You can skip to **step 11**.
-
-(Optional) You can create an own account. To do so, click on **Create an account**.
+You will now create your own own account. To do so, click on **Create an account**.
 
 ![alt text][pic15]
 
