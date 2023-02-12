@@ -196,7 +196,7 @@ Before proceeding, we need to check the cluster is up and running.
 	MQExplorer
 	```
 	
-	![](./images/image247.png)	
+![](./images/image247.png)	
 1. When the utility is ready, right-click *Queue Managers* and select *Add Remote Queue Manager*.
 
 	![](./images///image248.png)
