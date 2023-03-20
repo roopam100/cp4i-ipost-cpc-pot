@@ -26,7 +26,7 @@ We will cover all the various components that are part of Cloud Pak for Integrat
 - Easily portable to other clouds, since this can run on RedHat OpenShift. This allows you to install and operate the Pak identically across multiple cloud vendors.  
 
 ## Lab section:
-**For this POT today Feb 23th to Feb 24th** we will be using the mace cluster. 
+**For this POT today Mar 29th to Mar 30th** we will be using the mace cluster. 
 
 This is the OCP console and you will use the userid and password provided to you by the instructor. <br>**(Suggest right clicking and opening in new tab in the VDI)**<br>
 [https://console-openshift-console.apps.mace.coc-ibm.com/](https://console-openshift-console.apps.mace.coc-ibm.com/)
