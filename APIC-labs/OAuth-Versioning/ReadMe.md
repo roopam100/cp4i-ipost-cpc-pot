@@ -252,7 +252,7 @@ We will modify the security policy for our new API version to tell it to use the
 
 Once saved, you will see an indicator window appear that shows that **Your API has been updated**.  Click on the **X** to close the window.
 
-![alt text][pic70	]
+![alt text][pic70]
 
 6\. In the **Design** tab, find the **Security** section.  You will likely have to scroll up.  Expand the **Security** section clicking on the + if it is not already expanded.  
 
