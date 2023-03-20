@@ -456,4 +456,4 @@ Let’s change our *APPQ* to use the MUSTDUP quality of service and see what aff
 You have completed this lab Streaming Queue for MQ on CP4I.
 Now continue to lab 3 and you do the MQ Source connector lab to move MQ messages to kafka topics. 
 
-[Continue to lab 2b and the MQ Source connector](../Lab_2b/README.md)
+[Continue to lab 2b and the MQ Source connector](../Lab_2b/Readme.md)
