@@ -2,7 +2,7 @@
 
 ## The Developer Portal Experience
 
-[Return to main APIC lab page](../ReadMe.md#lab-abstracts)
+[Return to main APIC lab page](../ReadMe.md)
 
 <span style="color: red">Lab prerequisite:</span> "Create and Secure an API to Proxy an Existing REST Web Service"
 
@@ -74,7 +74,8 @@ A Developer Portal for the Sandbox catalog has already been configured in this e
 
 ![alt text][pic12]
 
-6\. Copy the **Portal URL** and paste it in a new browser tab.  Note: If you get a warning message that your connection is not private, follow the instructions in the previous section.
+6\. Highlight the **Portal URL** and right click to open URL in new tab or paste it in a new browser tab.  
+**Note:** If you get a warning message that your connection is not private, follow the instructions in the previous section.
 
 ![alt text][pic13]
 
@@ -86,21 +87,35 @@ A Portal Administrator can customize the look and feel to their organizational s
 
 8\. Some Products are visible to all users without an account depending on the Product visibility setting. Additional options are available when you log into the Developer Portal.
 
-You will now create your own own account. To do so, click on **Create an account**.
+=================================================================================================
+
+**NOTE:** In this Proof of Technology, Consumer accounts have already been created for you.  If using the pre-defined Consumer account, go to **Step 11** to log into the Dev Portal with your assigned username and password.  If you would like to create your own account to access the Portal, follow the steps below.
+
+9\. To create your own account, click on **Create an account**.
 
 ![alt text][pic15]
 
-9\. Fill in the form and make sure to use a valid email address since that is where the activation email is sent.  At the bottom when done, click **Sign up**.
+Next fill out the form and an activation email will be sent to you.  Click **Sign up**.
 
 ![alt text][pic16]
 
-10\. You will receive an email that you will copy the link and paste in to your browser to complete the registration at which point you can log in.
+10\. You will then receive the activation email.  Copy the link and paste in to your browser to complete the registration.  Once complete, you can log in with your new account.
 
 ![alt text][pic17]
 
-11\. Go to **Sign in** and enter the Username and Password created.  Click **Sign in**.
+=================================================================================================
 
-![alt text][pic18]
+11\. You can log into the Dev Portal using the pre-defined Consumer account or the Consumer account that you just created.  Click on **Sign in** on the Dev Portal screen in the upper right corner.  
+
+![alt text][pic19a]
+
+12\. The Sign in screen will pop up and you will log in with your Consumer username and password.  If using the Consumer account that was pre-defined, the name will be based on your cluster account.  In the screenshot below, the melch cluster is being used and the user is melch1.  Therefore, the Consumer account username will be melchdev1.  If you logged into the mace cluster using mace5, the Consumer account username would be macedev5.  The password is **passw0rd** for all of the pre-defined Consumer accounts.  If you are using the Consumer account that you just created, you can log in with those credentials.  Click **Sign in**. 
+
+![alt text][pic20a]
+
+13\. Once logged in, you will see the Welcome page for the portal.   Continue to the next section to register you test application. 
+
+![alt text][pic21a]
 
 [pic6a]: images/6a.png
 [pic8a]: images/8a.png
@@ -115,6 +130,9 @@ You will now create your own own account. To do so, click on **Create an account
 [pic16]: images/16.png
 [pic17]: images/17.png
 [pic18]: images/18.png
+[pic19a]: images/19a.png
+[pic20a]: images/20a.png
+[pic21a]: images/21a.png
 
 # 3. Register a Test Application <a name="register_app"></a>
 
@@ -256,4 +274,4 @@ Congratulations, you have completed the **Developer Portal Experience** lab. Th
 
 -   Test a API in the Developer Portal
 
-[Return to main APIC lab page](../ReadMe.md#lab-abstracts)
+[Return to main APIC lab page](../ReadMe.md)
